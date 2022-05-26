@@ -1,0 +1,30 @@
+.Content {
+    .quote {
+        background-image: url("../../quotes.svg");
+        background-repeat: no-repeat;
+        height: 4em;
+        display: flex;
+        align-items: center;
+        padding: 0 1.8em;
+        &.right {
+            background-position: right;
+            justify-content: end;
+        }
+        font-size: 24px;
+    }
+
+    .toggle {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+h4 {
+    text-transform: uppercase;
+    text-align: center;
+    color: hsl(0deg 0% 58%);
+}
+
+.error {
+    color: hsl(1deg 65% 61%);
+}

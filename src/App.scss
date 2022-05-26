@@ -1,0 +1,31 @@
+.App {
+  padding: 6em 8em 0 8em;
+
+  button {
+    color: white;
+    border-radius: 20px;
+    border-color: transparent;
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  .Divider {
+    height: 1px;
+    background-color: hsl(0deg 0% 85%);
+    margin: 3em 0;
+  }
+
+  .green {
+    background-color: hsl(111deg 39% 59%);
+  }
+
+  .blue {
+    background:  hsl(206deg 65% 45%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    padding: 1em 1em 0 1em;;
+  }
+}
