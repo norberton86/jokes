@@ -32,11 +32,11 @@ function App() {
 
   return (
     <div className="App">
-      <Header operation={getJoke}></Header>
-      <div className="Divider"></div>
+      <Header operation={getJoke}/>
+      <div className="Divider"/>
       {loading && <h4>Loading your joke</h4>}
       {joke?.error && <h4 className='error'>{joke.error}</h4>}
-      {joke?.setup && joke?.punchline && <Content data={joke}></Content>}
+      {joke?.setup && joke?.punchline && <Content data={joke}/>}
     </div>
   );
 }
